@@ -469,12 +469,14 @@ justify-content: space-between;
         opacity: 1;
         transform:none;
     }
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 414px) {
     .playlist-item {
         width: 90%;
-        
     }
 
     .realese-item {
@@ -485,5 +487,9 @@ justify-content: space-between;
     .mobile-menu {
         width: 100%;
         left: 0;
+}
+
+.playlist, .realese-list {
+    justify-content: center;
 }
 }

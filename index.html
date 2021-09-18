@@ -8,9 +8,10 @@
     <title>FLOP FLOP — сообщество о главных новостях в музыкальной индустрии.</title>
     <link rel="stylesheet" id="suffice-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400i%2C700%2C700i%7CPoppins%3A400%2C500%2C600%2C700&amp;subset=latin%2Clatin-ext&amp;display=swap"
         type="text/css" media="all">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -76,9 +77,32 @@
         <div class="swiper">
             <div class="swiper-wrapper">
      
-              <div class="swiper-slide"><a target="_blank" href="https://vk.com/flop_flop_ru"><img src="/image/loc-dog.jpg" alt=""></a>
+              <div class="swiper-slide"><a target="_blank" href="https://vk.com/flop_flop_ru">
+                <picture>
+                <source media="(max-width: 575px)" srcset="/image/loc-dog-575.jpg">
+                <source media="(mim-width: 576px)" srcset="/image/loc-dog.jpg">
+                <img srcset="/image/loc-dog.jpg" alt="Loc-Dog Album">
+            </picture>
+        </a>
               </div>
-              <div class="swiper-slide"><img src="/image/zvonkiy.jpg" alt=""></div>
+              <div class="swiper-slide">
+                <a target="_blank" href="https://vk.com/flop_flop_ru">
+                <picture>
+                <source media="(max-width: 575px)" srcset="/image/zvonkiy-575.jpg">
+                <source media="(mim-width: 576px)" srcset="/image/zvonkiy.jpg">
+                <img srcset="/image/zvonkiy.jpg" alt="zvonkiy Album">
+            </picture>
+            </a>
+            </div>
+            <div class="swiper-slide">
+                <a target="_blank" href="https://vk.com/flop_flop_ru">
+                    <picture>
+                        <source media="(max-width: 575px)" srcset="/image/simptom-575.jpg">
+                        <source media="(mim-width: 576px)" srcset="/image/simptom.jpg">
+                        <img srcset="/image/simptom.jpg" alt="simptom Album">
+                    </picture>
+            </a>
+            </div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
